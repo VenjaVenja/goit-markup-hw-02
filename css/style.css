@@ -1,0 +1,80 @@
+:root {
+  --primary-text-color: #757575;
+  --titel-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+.page {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+/* цвет фона вторичный #F5F4FA */
+/* цвет Н1 #FFFFFF */
+/* кнопка background: #2196F3; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+/* #e5e5e5 - bg-color возможно */
+
+.list {
+  list-style: none;
+}
+.page-header {
+  background-color: var(--primary-white-color);
+}
+/* .logo {
+  color: #2196f3;
+
+/* site-nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.site-nav .link.current {
+  color: var(--titel-text-color);
+}
+/* auth-nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+/* hero */
+.hero-titel {
+  color: var(--primary-white-color);
+}
+/* section */
+.section {
+  background-color: var(--primary-white-color);
+}
+.section-titel {
+  color: var(--titel-text-color);
+}
+.section-titel-goust {
+  color: rgba(0, 0, 0, 0);
+}
+/* features */
+.feature .list {
+  list-style: none;
+}
+.feature .titel {
+  color: var(--titel-text-color);
+}
+.work .list {
+  list-style: none;
+}
+.team .list {
+  list-style: none;
+}
+.team .titel {
+  color: var(--titel-text-color);
+}
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
