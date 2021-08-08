@@ -8,7 +8,7 @@
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
-span {
+.web {
   color: var(--accent-color);
 }
 
@@ -95,6 +95,10 @@ span {
 /* works */
 .works .titel {
   color: var(--titel-text-color);
+}
+.works .example:hover,
+.works .example:focus {
+  cursor: pointer;
 }
 
 /* Button */
