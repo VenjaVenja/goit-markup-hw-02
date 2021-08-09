@@ -19,7 +19,10 @@
   line-height: 31px;
 }
 
-.list {
+.list,
+.work-list,
+.team-list,
+.feature-list {
   list-style: none;
 }
 .page-header {
@@ -30,25 +33,24 @@
 
 .page-header .logo {
   color: var(--titel-text-color);
-  text-decoration: none;
-  font-family: Raleway, sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .footer .logo {
   color: var(--primary-white-color);
-  text-decoration: none;
+}
+.page-header .logo,
+.footer .logo {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 /* site-nav */
 
-.site-nav .link {
+.site-nav .link,
+.auth-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -67,14 +69,6 @@
 
 /* auth-nav */
 
-.auth-nav .link {
-  color: var(--primary-text-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
@@ -94,6 +88,18 @@
   text-transform: uppercase;
 }
 
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 /* section */
 
 .section {
@@ -101,32 +107,40 @@
 }
 .section-titel {
   color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
-.section-titel-goust {
-  color: rgba(0, 0, 0, 0);
-}
+.section-titel-goust,
 .section-filter-titel {
   color: rgba(0, 0, 0, 0);
 }
 
 /* features */
 
-.feature .list {
-  list-style: none;
 }
-.feature .titel {
+.feature-list .titel {
   color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.work .list {
+.feature-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* .work-list {
   list-style: none;
 }
-.team .list {
+.team-list {
   list-style: none;
-}
+} */
 .filter .list {
   list-style: none;
 }
-.team .titel {
+.team-list .titel {
   color: var(--titel-text-color);
 }
 
@@ -136,12 +150,6 @@
 }
 
 /* Button */
-
-.mainbutton {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-}
 
 .filter .filters {
   background-color: #f5f4fa;
