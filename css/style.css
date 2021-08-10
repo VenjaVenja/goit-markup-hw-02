@@ -16,7 +16,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .list,
@@ -30,6 +30,11 @@
   list-style: none;
   text-decoration: none;
 }
+
+.text {
+  color: var(--primary-text-color);
+}
+
 .page-header {
   background-color: var(--primary-white-color);
 }
@@ -106,6 +111,27 @@
   letter-spacing: 0.06em;
 }
 
+/* button */
+
+.filter-list .filters {
+  background-color: #f5f4fa;
+  color: var(--titel-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.filter-list .filters:hover,
+.filter-list .filters:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
 /* section */
 
 .section {
@@ -176,6 +202,12 @@
 
 .works-list .example {
   text-decoration: none;
+}
+.works-list .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
