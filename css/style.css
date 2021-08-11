@@ -28,6 +28,7 @@
 .footer .address-list,
 .filter-list,
 .works-list {
+  font-style: normal;
   list-style: none;
   text-decoration: none;
 }
