@@ -63,7 +63,7 @@
 
 .site-nav .link,
 .auth-nav .link {
-  color: var(--primary-text-color);
+  color: var(--titel-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -155,6 +155,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .feature-list .text,
 .footer .link {
@@ -215,6 +216,8 @@
 .footer .comp-address {
   color: var(--primary-white-color);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.72;
 }
 
 .footer .link {
